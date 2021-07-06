@@ -156,20 +156,6 @@ aside {
         left: 0;
         width: 80%;
         background: var(--light); }
-      aside .block .bar-skill .bar-skill-progress-angular {
-        position: absolute;
-        height: 5px;
-        top: 0;
-        left: 0;
-        width: 70%;
-        background: var(--light); }
-      aside .block .bar-skill .bar-skill-progress-react {
-        position: absolute;
-        height: 5px;
-        top: 0;
-        left: 0;
-        width: 70%;
-        background: var(--light); }
       aside .block .bar-skill .bar-skill-dot {
         position: absolute;
         height: 10px;
@@ -178,15 +164,79 @@ aside {
         left: calc(80% - 5px);
         top: -2.5px;
         transform: rotate(45deg); }
+
+      aside .block .bar-skill .bar-skill-progress-html {
+        position: absolute;
+        height: 5px;
+        top: 0;
+        left: 0;
+        width: 90%;
+        background: var(--light); }
+      aside .block .bar-skill .bar-skill-dot-html {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: var(--dark);
+        left: calc(90% - 5px);
+        top: -2.5px;
+        transform: rotate(45deg); }
+
+      aside .block .bar-skill .bar-skill-progress-scss {
+        position: absolute;
+        height: 5px;
+        top: 0;
+        left: 0;
+        width: 90%;
+        background: var(--light); }
+      aside .block .bar-skill .bar-skill-dot-scss {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: var(--dark);
+        left: calc(90% - 5px);
+        top: -2.5px;
+        transform: rotate(45deg); }
+
+      aside .block .bar-skill .bar-skill-progress-angular {
+        position: absolute;
+        height: 5px;
+        top: 0;
+        left: 0;
+        width: 85%;
+        background: var(--light); }
       aside .block .bar-skill .bar-skill-dot-angular {
         position: absolute;
         height: 10px;
         width: 10px;
         background: var(--dark);
-        left: calc(70% - 5px);
+        left: calc(85% - 5px);
         top: -2.5px;
         transform: rotate(45deg); }
+
+      aside .block .bar-skill .bar-skill-progress-react {
+        position: absolute;
+        height: 5px;
+        top: 0;
+        left: 0;
+        width: 75%;
+        background: var(--light); }
       aside .block .bar-skill .bar-skill-dot-react {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: var(--dark);
+        left: calc(75% - 5px);
+        top: -2.5px;
+        transform: rotate(45deg); }
+
+      aside .block .bar-skill .bar-skill-progress-nestjs {
+        position: absolute;
+        height: 5px;
+        top: 0;
+        left: 0;
+        width: 70%;
+        background: var(--light); }
+      aside .block .bar-skill .bar-skill-dot-nestjs {
         position: absolute;
         height: 10px;
         width: 10px;
@@ -194,6 +244,71 @@ aside {
         left: calc(70% - 5px);
         top: -2.5px;
         transform: rotate(45deg); }
+
+      aside .block .bar-skill .bar-skill-progress-nodejs {
+        position: absolute;
+        height: 5px;
+        top: 0;
+        left: 0;
+        width: 80%;
+        background: var(--light); }
+      aside .block .bar-skill .bar-skill-dot-nodejs {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: var(--dark);
+        left: calc(80% - 5px);
+        top: -2.5px;
+        transform: rotate(45deg); }
+
+      aside .block .bar-skill .bar-skill-progress-mysql {
+        position: absolute;
+        height: 5px;
+        top: 0;
+        left: 0;
+        width: 70%;
+        background: var(--light); }
+      aside .block .bar-skill .bar-skill-dot-mysql {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: var(--dark);
+        left: calc(70% - 5px);
+        top: -2.5px;
+        transform: rotate(45deg); }
+
+      aside .block .bar-skill .bar-skill-progress-graphql {
+        position: absolute;
+        height: 5px;
+        top: 0;
+        left: 0;
+        width: 50%;
+        background: var(--light); }
+      aside .block .bar-skill .bar-skill-dot-graphql {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: var(--dark);
+        left: calc(50% - 5px);
+        top: -2.5px;
+        transform: rotate(45deg); }
+
+      aside .block .bar-skill .bar-skill-progress-adminsys {
+        position: absolute;
+        height: 5px;
+        top: 0;
+        left: 0;
+        width: 50%;
+        background: var(--light); }
+      aside .block .bar-skill .bar-skill-dot-adminsys {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: var(--dark);
+        left: calc(50% - 5px);
+        top: -2.5px;
+        transform: rotate(45deg); }
+
     aside .block .stars-container {
       display: flex;
       margin: 2rem 0 3rem 0;
@@ -229,6 +344,62 @@ aside {
       align-items: center; }
       aside .block .react h3 {
         margin: 0; }
+    aside .block .Angular {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center; }
+      aside .block .Angular h3 {
+        margin: 0 0.5rem; }
+    aside .block .nestJS {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center; }
+      aside .block .nestJS h3 {
+        margin: 0 1rem; }
+    aside .block .nodeJS {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center; }
+      aside .block .nodeJS h3 {
+        margin: 0 1rem; }
+    aside .block .scss {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center; }
+      aside .block .scss h3 {
+        margin: 0 1rem; }
+    aside .block .html {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center; }
+      aside .block .html h3 {
+        margin: 0 1rem; }
+    aside .block .mysql {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center; }
+      aside .block .mysql h3 {
+        margin: 0 1rem; }
+    aside .block .graphql {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center; }
+      aside .block .graphql h3 {
+        margin: 0 1rem; }
+    aside .block .adminsys {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center; }
+      aside .block .adminsys h3 {
+        margin: 0 1rem; }
 
 main {
   grid-area: main;
