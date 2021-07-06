@@ -313,9 +313,11 @@ aside {
       display: flex;
       margin: 2rem 0 3rem 0;
       color: var(--hint); }
-      aside .block .stars-container i {
-        font-size: 2rem;
-        margin: 0 1rem; }
+
+    aside .block .stars-container i {
+      font-size: 2rem;
+      margin: 0 1rem; }
+
     aside .block .social-container {
       display: flex;
       justify-content: start;
@@ -324,19 +326,24 @@ aside {
       border-radius: 5px;
       transition: all 0.2s;
       cursor: pointer; }
-      aside .block .social-container:hover {
-        background: var(--border); }
-        aside .block .social-container:hover i {
-          color: var(--primary);
-          transform: scale(1.3);
-          transition: all 0.2s; }
-      aside .block .social-container i {
-        font-size: 2rem;
-        flex: 0 0 50px;
-        margin-right: 1rem; }
-      aside .block .social-container p {
-        flex: auto;
-        margin: 0; }
+
+    aside .block .social-container:hover {
+      background: var(--border); }
+
+    aside .block .social-container:hover i {
+      color: var(--primary);
+      transform: scale(1.3);
+      transition: all 0.2s; }
+
+    aside .block .social-container i {
+      font-size: 2rem;
+      flex: 0 0 50px;
+      margin-right: 1rem; }
+
+    aside .block .social-container p {
+      flex: auto;
+      margin: 0; }
+
     aside .block .react {
       display: flex;
       flex-direction: row;
@@ -344,6 +351,7 @@ aside {
       align-items: center; }
       aside .block .react h3 {
         margin: 0; }
+
     aside .block .Angular {
       display: flex;
       flex-direction: row;
@@ -351,6 +359,7 @@ aside {
       align-items: center; }
       aside .block .Angular h3 {
         margin: 0 0.5rem; }
+
     aside .block .nestJS {
       display: flex;
       flex-direction: row;
@@ -358,6 +367,7 @@ aside {
       align-items: center; }
       aside .block .nestJS h3 {
         margin: 0 1rem; }
+
     aside .block .nodeJS {
       display: flex;
       flex-direction: row;
@@ -365,6 +375,7 @@ aside {
       align-items: center; }
       aside .block .nodeJS h3 {
         margin: 0 1rem; }
+
     aside .block .scss {
       display: flex;
       flex-direction: row;
@@ -372,6 +383,7 @@ aside {
       align-items: center; }
       aside .block .scss h3 {
         margin: 0 1rem; }
+
     aside .block .html {
       display: flex;
       flex-direction: row;
@@ -379,6 +391,7 @@ aside {
       align-items: center; }
       aside .block .html h3 {
         margin: 0 1rem; }
+
     aside .block .mysql {
       display: flex;
       flex-direction: row;
@@ -386,6 +399,7 @@ aside {
       align-items: center; }
       aside .block .mysql h3 {
         margin: 0 1rem; }
+
     aside .block .graphql {
       display: flex;
       flex-direction: row;
@@ -393,6 +407,7 @@ aside {
       align-items: center; }
       aside .block .graphql h3 {
         margin: 0 1rem; }
+
     aside .block .adminsys {
       display: flex;
       flex-direction: row;
