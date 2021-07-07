@@ -11,7 +11,8 @@ html {
 body {
   font-family: var(--font-family);
   color: var(--text);
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  overflow-x: hidden}
 
 p {
   margin: 1rem 0; }
@@ -70,7 +71,6 @@ img {
 /* Large desktop */
 .grid-container {
   display: grid;
-  max-width: 480px;
   grid: "picture header" auto "aside main" 1fr "footer footer" auto / 350px auto; }
   @media (max-width: 480px) {
     .grid-container {
